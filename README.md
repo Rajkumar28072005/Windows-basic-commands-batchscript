@@ -3,75 +3,80 @@
 ### Name: RAJKUMAR G
 ### Register No: 212223230166
 ### Date:
+# Windows-basic-commands-batchscript
 
-## AIM:
+# AIM:
 To execute Windows basic commands and batch scripting
-**@@ -24,42 +23,53 @@ Execute the necessary commands/batch file for the desired output**
 
-## WINDOWS COMMANDS:
+# DESIGN STEPS:
 
-### Exercise 1: Basic Directory and File Operations
+### Step 1:
+
+Navigate to any Windows environment installed on the system or installed inside a virtual environment like virtual box/vmware 
+
+### Step 2:
+
+Write the Windows commands / batch file
+Save each script in a file with a .bat extension.
+Ensure you have the necessary permissions to perform the operations.
+Adapt paths as needed based on your system configuration.
+### Step 3:
+
+Execute the necessary commands/batch file for the desired output. 
+
+
+
+
+# WINDOWS COMMANDS:
+## Exercise 1: Basic Directory and File Operations
 Create a directory named "MyLab" on the desktop.
-
-#### COMMAND AND OUTPUT:
-
-**Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.**
-```
-%userprofile%\Desktop\MyLab
-```
-
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/c206b1a2-a6cd-4a05-8be1-0e757209c1bd)
+## COMMAND AND OUTPUT
+![Screenshot 2024-10-22 190207](https://github.com/user-attachments/assets/de8563b1-0afe-4d35-ae35-a7dca8d51c55)
 
 
-#### COMMAND AND OUTPUT:
+Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 
-**List the contents of the "MyLab" directory.**
-```
-%userprofile%\Desktop\MyLab
-```
-
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/4b447d26-41f7-404f-9b36-abeade389383)
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/5fdde096-136f-429f-b875-df720b5ace5f)
-
-#### COMMAND AND OUTPUT:
-
-**Copy "MyFile.txt" to a new folder named "Backup" on the desktop.**
-```
-%userprofile%\Desktop\MyLab
-```
-
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/d7c09055-e3c0-40a6-acc8-9c7a0d074a87)
+## COMMAND AND OUTPUT
+![Screenshot 2024-10-22 190215](https://github.com/user-attachments/assets/6e8c5480-9173-444d-93c2-78b3b5368b99)
 
 
-#### COMMAND AND OUTPUT:
-
-**Move the "MyLab" directory to the "Documents" folder.**
-```
-mkdir %userprofile%\Desktop\Backup mkdir %userprofile%\Desktop\Backup
-```
-
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/7ec9d35f-de3b-471f-a9ca-6f2a6d423eb2)
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/b745898c-a420-4802-8b01-515134b5f90a)
+List the contents of the "MyLab" directory.
 
 
-#### COMMAND AND OUTPUT:
 
-```
-mv Myfile.txt %userprofile%\Documents
-```
+## COMMAND AND OUTPUT
+![Screenshot 2024-10-22 190234](https://github.com/user-attachments/assets/00a6a5d2-9ad1-42e9-bfde-b647b2890002)
 
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/2a79b20b-4617-4582-afe4-b7b93fb63e29)
 
-### Exercise 2: Advanced Batch Scripting
+Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
+
+
+## COMMAND AND OUTPUT
+![Screenshot 2024-10-22 190524](https://github.com/user-attachments/assets/82190fe2-9b9c-412b-8061-cec23b7b9012)
+
+
+Move the "MyLab" directory to the "Documents" folder.
+
+## COMMAND AND OUTPUT
+
+![Screenshot 2024-10-22 190534](https://github.com/user-attachments/assets/8dba7add-0220-46c5-9f2a-937f8305da7a)
+
+## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
 
-```
-@echo off mkdir %userprofile%\Desktop\DocBackup copy %userprofile%\Documents*.docx %userprofile%\Desktop\DocBackup echo Backup completed successfully!
-```
+
+
+
+
+
 
 ## OUTPUT
-![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/404d9504-2a72-4f94-aaed-bc617279bb62)
 
-## RESULT:
-Thus,To execute Windows basic commands and batch scripting @@ -24,42 +23,53 @@ Execute the necessary commands/batch file for the desired output is verified successfully.
+
+![Screenshot 2024-10-22 191151](https://github.com/user-attachments/assets/39f73c72-f8c7-4764-9cb9-28f9d7ba506c)
+
+
+
+# RESULT:
+The commands/batch files are executed successfully.
 
